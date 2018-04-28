@@ -11,9 +11,14 @@ Game of Life's source code is made available under the [Apache 2.0 license](http
 ## Supported Platforms
 * Windows
 
-## Usage
+## How to Use
+
+First of all:
 
     pip install pygame
+
+Then:
+
     python "game of life.py"
 
 
