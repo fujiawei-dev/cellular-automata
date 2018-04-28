@@ -43,6 +43,7 @@ DISPLAYSURF.fill(WHITE)
 
 before = generate(length=display_size//life_size + 2, rand=10000)
 
+n = 1
 while True:
     for event in pygame.event.get():
         if event.type == QUIT:
@@ -60,8 +61,9 @@ while True:
                                  ((i-1)*life_size, (j-1)*life_size, life_size, life_size))
 
     before = evolution(before)
-
-    obj = pygame.PixelArray(DISPLAYSURF)
-
+    pygame.PixelArray(DISPLAYSURF)
     pygame.display.update()
-    # sleep(0.1)
+    sleep(0.1)
+
+    pygame.image.save(DISPLAYSURF, 'png/{}.png'.format(n))
+    n += 1
