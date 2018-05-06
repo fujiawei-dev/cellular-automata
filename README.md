@@ -19,7 +19,7 @@ First of all:
 
 Then:
 
-    python "game of life.py"
+    python game_of_life.py
 
 
 > Note: You may want to consider using [virtualenv](http://www.virtualenv.org/) to create isolated Python environments.
