@@ -9,4 +9,4 @@ def synthetic_gif(num):
 
 
 if __name__ == '__main__':
-    synthetic_gif(400)
+    synthetic_gif(2063)
